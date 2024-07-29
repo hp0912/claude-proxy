@@ -2,7 +2,7 @@
 export default {
   async fetch(request, env) {
     try {
-      const OPENAI_API_HOST = "api.openai.com";
+      const OPENAI_API_HOST = "api.anthropic.com";
       const oldUrl = new URL(request.url);
 
       if (oldUrl.pathname === "/") {
